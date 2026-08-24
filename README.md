@@ -48,7 +48,7 @@ import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 
-image = cv2.imread('Tuatara.jpg')  # Replace with your image path
+image = cv2.imread('image1.jpg')  # Replace with your image path
 gray_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 # Original Image
 plt.imshow(cv2.cvtColor(image, cv2.COLOR_BGR2RGB))
